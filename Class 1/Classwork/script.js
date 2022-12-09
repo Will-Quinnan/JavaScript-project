@@ -2,7 +2,7 @@ console.log("Script file");
 var age=100;//initialization ans assignation
 let userName="Will";
 let taxes = 11.5;
-const URL = "http://www/thisisprivateEndPoint/project"
+const URL = "http://www/thisisprivateEndPoint/project";
 
 console.log(age,username,URL);//displaying the age, username and URL
 
