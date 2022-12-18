@@ -1,13 +1,14 @@
 
 let item = ["things to do"]
 
-
+let newItem= document.getElementById("toDo");
 
 function add(){
-    let newItem= document.getElementById("toDo");
-    item.push(newItem);
+   
+    item.push(newItem.value);
     displayToDo();
-    console.log(newItem)
+    console.log(newItem.value);
+    clearForm();
 }
 
 
@@ -29,9 +30,12 @@ function displayToDo(){
         console.log(tmp);
         DIV.innerHTML=tmp;
 
-
+       
 
     }
+}
+function clearForm(){
+    newItem.value=""
 }
 
 
